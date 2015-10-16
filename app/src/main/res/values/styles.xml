@@ -1,0 +1,28 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="PortfolioTitle" parent="Theme.AppCompat.Light.DarkActionBar">
+
+    </style>
+
+    <style name="AppButton" parent="android:Widget.Holo.Button.Borderless">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:width">260dp</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:background">#673AB7</item>
+        <item name="android:textColor">#EDE7F6</item>
+        <item name="android:onClick">btnClicked</item>
+    </style>
+
+    <style name="CapstoneButton" parent="AppButton">
+        <item name="android:textColor">#FFEBEE</item>
+        <item name="android:background">#F44336</item>
+    </style>
+
+</resources>
